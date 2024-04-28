@@ -1,6 +1,6 @@
 ### Iris Recognition System
 
-This repository contains an Iris Recognition System developed using Python with a focus on Python 3.10 and Django framework for the backend.
+This repository contains an Iris Recognition System developed using Python with a focus on Python 3.10 and Django framework for the backend. A simple implementation in a website to serve hidden files by user using biometrics is used. Currently this website supports images to be uploaded.
 
 #### Setup Instructions
 
@@ -48,7 +48,8 @@ This repository contains an Iris Recognition System developed using Python with 
 #### Implementation Details
 
 - Implementation details, including architecture, methodologies, and results, can be found in the `report` folder.
-- [Segmentation Repository](https://github.com/itmaybehimm/segmentation): For related segmentation functionalities, refer to this repository.
+- [Segmentation Repository](https://github.com/itmaybehimm/segmentation): For related segmentation functionalities, refer to this repository. The segmentation and normalization functions are included in backend/core/utils.py
+- Model is difined for web in backend/backend/utils.py
 
 #### Contributors
 
