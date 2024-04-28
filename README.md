@@ -26,9 +26,17 @@ This repository contains an Iris Recognition System developed using Python with 
 3. **Running the Backend:**
 
    - Navigate to the `backend` directory:
+
      ```bash
      cd backend
      ```
+
+   - Migrations:
+
+     ```bash
+     python manage.py migrate
+     ```
+
    - Start the Django server:
      ```bash
      python manage.py runserver
